@@ -1,0 +1,7 @@
+.b-repo {
+    padding: 1em;
+}
+
+.b-repo + .b-repo {
+    border-top: 1px solid #333;
+}

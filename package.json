@@ -1,0 +1,30 @@
+{
+  "name": "start",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.15.3",
+    "superagent": "^3.5.2",
+    "validate.js": "^0.11.1"
+  },
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "faker": "^4.1.0",
+    "react-addons-test-utils": "^15.5.1",
+    "react-scripts": "0.9.5",
+    "react-test-renderer": "^15.5.4"
+  },
+  "scripts": {
+    "start": "NODE_PATH=. react-scripts start",
+    "build": "NODE_PATH=. react-scripts build",
+    "test": "NODE_PATH=. react-scripts test",
+    "cover": "npm test -- --coverage",
+    "eject": "NODE_PATH=. react-scripts eject",
+    "postinstall": "echo \"{}\" > src/store/state.json"
+  }
+}

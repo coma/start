@@ -1,0 +1,39 @@
+.b-spinner {
+  display: flex;
+  font-size: .5rem;
+}
+
+.b-spinner > div {
+  background-color: #e56500;
+  height: 6em;
+  width: 1em;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.b-spinner > div + div {
+  margin-left: .5em;
+}
+
+.b-spinner > div:nth-child(2) {
+  animation-delay: -1.1s;
+}
+
+.b-spinner > div:nth-child(3) {
+  animation-delay: -1.0s;
+}
+
+.b-spinner > div:nth-child(4) {
+  animation-delay: -0.9s;
+}
+
+.b-spinner > div:nth-child(5) {
+  animation-delay: -0.8s;
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+  }
+}

@@ -1,0 +1,4 @@
+export const STATUS_NONE    = 'STATUS_NONE',
+             STATUS_LOADING = 'STATUS_LOADING',
+             STATUS_LOADED  = 'STATUS_LOADED',
+             STATUS_FAILED  = 'STATUS_FAILED';
