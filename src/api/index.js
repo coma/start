@@ -1,10 +1,10 @@
 import request from 'superagent';
+import search from './search';
 
-const root = 'https://api.github.com',
-      url  = path => `${ root }/${ path.replace(/^\/|\/$/g, '') }`;
+export const root = 'https://api.github.com';
 
-const search = q => request
-  .get(url('search/repositories'))
-  .query({q});
+export const url = path => `${ root }/${ path.replace(/^\/|\/$/g, '') }`;
 
-export default {search};
+export default {
+    search: search(request, url)
+};
