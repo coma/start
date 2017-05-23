@@ -4,7 +4,7 @@ import Result from './result';
 import './style.css';
 
 const View = () => (
-    <div className="b-view">
+    <div className="view">
         <Search />
         <Result />
     </div>

@@ -38,7 +38,7 @@ export class Search extends PureComponent {
         const {name} = this.state;
 
         return (
-            <form className="b-search" noValidate autoComplete="off" onSubmit={ event => this.search(event) }>
+            <form className="search" noValidate autoComplete="off" onSubmit={ event => this.search(event) }>
                 <Input
                     type="text"
                     name="name"

@@ -29,5 +29,5 @@ it('should merge class names', () => {
     const className = faker.name.firstName(),
           input     = shallow(<Input className={ className } />);
 
-    expect(input.prop('className')).toBe(`b-input ${ className }`);
+    expect(input.prop('className')).toBe(`input ${ className }`);
 });

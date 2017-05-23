@@ -8,7 +8,7 @@ it('should be a view', () => {
 
     const view = shallow(<View />);
 
-    expect(view.is('div.b-view')).toBe(true);
+    expect(view.is('div.view')).toBe(true);
     expect(view.find(Search).length).toBe(1);
     expect(view.find(Result).length).toBe(1);
 });

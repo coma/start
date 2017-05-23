@@ -4,7 +4,7 @@ import views from './views';
 import './style.css';
 
 const Result = ({View, data}) => (
-    <div className="b-result">
+    <div className="result">
         <View { ...data } />
     </div>
 );

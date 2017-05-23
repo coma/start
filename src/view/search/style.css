@@ -1,7 +1,7 @@
-.b-search {
+.search {
     display: flex;
 }
 
-.b-search .b-input {
+.search .input {
     flex: 1;
 }

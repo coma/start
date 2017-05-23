@@ -6,6 +6,6 @@ it('should be a spinner', () => {
 
     const spinner = shallow(<Spinner />);
 
-    expect(spinner.is('div.b-spinner')).toBe(true);
+    expect(spinner.is('div.spinner')).toBe(true);
     expect(spinner.children().length).toBe(5);
 });
